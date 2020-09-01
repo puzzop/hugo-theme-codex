@@ -14,9 +14,14 @@
     <h2>
       {{ .Params.subheading }}
     </h2>
-    <!-- Replace MEEEEE -->
 
     {{ partial "social-icons.html" .}}
+
+    <p>
+      {{ .Content }}
+    </p>
+
+    {{ partial "subscribe.html" .}}
   </div>
 </div>
 
