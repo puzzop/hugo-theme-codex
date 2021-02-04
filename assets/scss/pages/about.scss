@@ -4,9 +4,9 @@
   height: 100%;
   display: flex;
   justify-content: center;
-  align-items: center;
   font-size: 14px;
   max-width: 800px;
+  margin: 0 auto;
 
   @media screen and (min-width: $medium) {
     font-size: 18px;
@@ -14,6 +14,8 @@
 }
 
 .splash {
+  margin-top: 3em;
+
   h1 {
     font-size: 3em;
     line-height: 1;
